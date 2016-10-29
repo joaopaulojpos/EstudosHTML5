@@ -1,0 +1,25 @@
+/* RESET */
+
+* {margin: 0; padding: 0; font-size: 100%; font-family: 'Open Sans', sans-serif; font-weight: normal;
+
+box-sizing:border-box; border:none; outline: none; }
+
+img {max-width: 100%;}
+
+ul {list-style: none;}
+
+a {text-decoration: none;}
+
+h2 {font-size: 1.5em; color: #333;}
+
+p {font-size: 1em; color: #777;}
+
+/* CABECALHO */
+.cabecalho{width: 100%; float: left; padding: 50px 8px; background-color: #f5f5f5;}
+.logo a{width: 360px; height: 68px; float: left; background: url(../img/logo.png) no-repeat; font-size: 0;}
+
+/* MENU */
+.menu {width: 100%; float: left; color: #fff; background-color: #111; padding: 18px 8%;}
+.menu form{width: 100%; float: left;}
+
+.principal table{border: 1px;}
