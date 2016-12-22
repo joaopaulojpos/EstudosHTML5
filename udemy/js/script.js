@@ -12,3 +12,9 @@ function somar(a, b){
 }
 
 console.log(somar(2, 5));
+
+document.getElementById("btn-calcular").onclick = function(){
+	var valorA = document.getElementById("valor-a").value;
+	var valorB = document.getElementById("valor-b").value;
+	alert(parseInt(valorA) + parseInt(valorB));
+}
