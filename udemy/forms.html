@@ -20,6 +20,58 @@
 				<label for="nascimento">Nascimento</label>
 				<input type="date" name="nascimento" id="nascimento" class="form-control" required min="2016-12-22" max="2016-12-29">
 			</div>
+			<div class="form-group">
+				<label>Sexo</label>
+				<input type="radio" name="sexo" id="masculino">
+				<label for="masculino">Masculino</label>
+				<input type="radio" name="sexo" id="feminino">
+				<label for="feminino">Feminino</label>
+			</div>
+			<div class="form-group">
+				<label for="li">Li o contrato</label>
+				<input type="checkbox" name="li" id="li" required checked>
+			</div>
+			<div class="form-group">
+				<label for="volume">Volume</label>
+				<input type="range" name="volume" id="volume" min="0" max="100" value="25">
+			</div>
+			<div class="form-group">
+				<label for="bateria">Bateria</label>
+				<meter name="meter" min="0" max="100" low="15" value="12">15</meter>
+			</div>
+			<div class="form-group">
+				<label for="bateria">Carregando</label>
+				<progress value="60" min="0" max="100">60%</progress>
+			</div>
+			<div class="form-group">
+				<label for="ano">Ano Fabricação</label>
+				<input type="number" name="ano" id="ano" min="1920" max="2016" value="2016" step="20" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="cor">Cor</label>
+				<input type="color" name="cor" id="cor" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="url">URL</label>
+				<input type="url" name="url" id="url" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="busca">Busca</label>
+				<input type="search" name="busca" id="busca" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="mensagem">mensagem</label>
+				<textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="estado">Estados</label>
+				<select name="estados" id="estados">
+				<option value="SP">São Paulo</option>
+				<option value="MG" selected>Minas Gerais</option>
+				<option value="RJ">Rio de Janeiro</option>
+				</select>
+			</div>
+
 			<div>
 				<button type="submit" class="btn btn-primary">Cadastrar</button>
 			</div>
